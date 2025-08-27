@@ -1,4 +1,4 @@
-# Microbeam Bending Simulation with Viterbi and Optimization
+# Beam Bending Simulation
 
 This repository contains a Python script that simulates the **bending of a microbeam** using two different approaches: the **Viterbi algorithm** and a **numerical energy minimization method**. The project is designed to find the stable equilibrium shape of a beam under a horizontal force. It generates a series of plots showing the beam's profile for different force values.
 
