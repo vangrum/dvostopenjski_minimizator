@@ -23,7 +23,7 @@ You can install them using pip:
 pip install numpy matplotlib scipy numba
 ```
 
-## How It Works 🧠
+## How It Works
 
 The script operates in three main stages:
 
@@ -42,7 +42,7 @@ The script operates in three main stages:
       * The plot compares the Viterbi solution (the initial guess) with the final, minimized energy solution.
       * Each plot is saved as a PNG file in a dedicated output folder, named to reflect the simulation's parameters.
 
-## Running the Script ▶️
+## Running the Script
 
 Simply execute the script from your terminal:
 
@@ -52,7 +52,7 @@ python main.py
 
 The script will automatically create directories for the output images and run simulations for various configurations defined in the `if __name__ == "__main__":` block. It uses `multiprocessing` to run multiple simulations in parallel, significantly speeding up the process.
 
-## Customizing the Simulation ⚙️
+## Customizing the Simulation
 
 You can modify the simulation parameters within the `main` function or the `if __name__ == "__main__":` block to explore different scenarios:
 
