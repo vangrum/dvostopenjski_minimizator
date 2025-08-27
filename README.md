@@ -1,6 +1,6 @@
 # Beam Bending Simulation
 
-This repository contains a Python script that simulates the **bending of a beam** using two different approaches: the **Viterbi algorithm** and a **numerical energy minimization method**. The project is designed to find a stable equilibrium shape of a beam under an axial force. It generates a series of plots showing the beam's profile for different force values. By finding the global minimum of the energy functional of the beam it finds the configuration of the beam which the beam is most likely to follow for a given set of parameters. 
+This repository contains a Python script that simulates the **bending of a beam** using a two step process: the **Viterbi algorithm** and the **numerical SLSQP method**. The program is designed to find a stable equilibrium shape of a beam under an axial force. It generates a series of plots showing the beam's profile for different force values. By finding the global minimum of the energy functional of the beam it finds the configuration of the beam which the beam is most likely to follow for a given set of parameters. 
 
 ## Key Concepts
 
